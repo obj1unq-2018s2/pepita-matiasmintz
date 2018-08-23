@@ -3,10 +3,11 @@ import comidas.*
 
 test "pepita come 5 gramos de mondongo" {
 	pepita.comer(mondongo,5)
-	assert.equals(450, pepita.energia())
+	assert.equals(500, pepita.energia())
 }
 
 test "pepita come 10 gramos de alpiste" {
-	pepita.volar(alpiste)
+	pepita.comer(alpiste,10)
 	assert.equals(40, pepita.energia())
 }
+

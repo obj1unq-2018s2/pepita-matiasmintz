@@ -1,0 +1,6 @@
+import pepita.*
+test "Como come & vuela Pepita" {
+	pepita.comer(10)
+	pepita.volar(20)
+	assert.equals(10,pepita.energia())
+}
