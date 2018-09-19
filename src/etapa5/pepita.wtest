@@ -1,0 +1,12 @@
+
+describe "pepita" {
+	test "energia inicial = 0"{
+		assert.equals(0, pepita.energia())
+	}
+
+	test "al llegar a la patagonia pepita suma 30 de energia" {
+		pepita.visitar(patagonia)
+		assert.equals(30, pepita.energia())
+
+	}
+}
